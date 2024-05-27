@@ -1,0 +1,68 @@
+main{
+    margin: auto;
+    width: 50%;
+    height: 2500px;
+}
+nav{
+    height: 180px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+}
+nav h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+nav a:hover{
+    opacity: 0.35;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    padding: 20px;
+    padding-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#pestaña{
+    border-bottom: 2px solid black;
+}
+#imagenes{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.imagenes{
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-right: 80px;
+}
+li{
+    padding: 10px;
+}
+a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(223, 221, 221);
+}
+#redes li a:hover{
+    opacity: 0.5;
+}

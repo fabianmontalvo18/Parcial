@@ -1,0 +1,68 @@
+main{
+    margin: auto;
+    width: 50%;
+    height: 2500px;
+}
+nav{
+    height: 150px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+nav a:hover{
+    opacity: 0.35;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    padding: 20px;
+    padding-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#imagen img{
+    margin-top: 20px;
+    
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+#imagen1{
+    float: left;
+    margin-right: 15px;
+}
+#imagen2{
+    float: right;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-right: 80px;
+}
+li{
+    padding: 10px;
+}
+a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(223, 221, 221);
+}
+#redes li a:hover{
+    opacity: 0.5;
+}
+#blog{
+    border-bottom: 2px solid black;
+}

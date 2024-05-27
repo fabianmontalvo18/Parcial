@@ -1,0 +1,47 @@
+body{
+    background-image: url(img/rock-argentino-malvinas-elena-canton.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+    margin-top: 150px;
+    color: rgb(230, 230, 230);
+    
+}
+h2{
+    text-align: center;
+    color: rgb(228, 226, 226);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+a{
+    padding: 10px;
+}
+img{
+    filter: invert(90%);
+}
+a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(223, 221, 221);
+}
+#contenedor{
+    margin-bottom: 50px;
+}
+ a:hover{
+    color: grey;
+}
+#redes li a:hover{
+    opacity: 0.5;
+}
+
+
+
